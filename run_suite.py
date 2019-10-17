@@ -27,3 +27,4 @@ with open(file_to,"wb") as f:
     runner = HTMLTestRunner(f, title="我的测试报告", description="V1.0")
     runner.run(suite)
 print("************")
+print("-------")
